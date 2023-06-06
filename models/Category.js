@@ -7,7 +7,8 @@ let schema = new mongoose.Schema({
   hover: {type: String, required: true},
   description: {type: String, required: true},
   cover_photo: {type: String, required: true},
-  character_photo: {type: String, required: true}
+  character_photo: {type: String, required: true},
+  video: {type: String, required: true}
 },{
   timestamps: true
 })

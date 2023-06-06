@@ -1,6 +1,6 @@
 import Joi from "joi";
 
-let mangaUpdate=Joi.object({
+let gameUpdate=Joi.object({
   title: Joi.string().min(4).max(30).message({
     "string.min": "the title must be at least 4 characteres",
     "string.max": "the title must not have more than 30 characters",
@@ -16,4 +16,4 @@ let mangaUpdate=Joi.object({
 
 })
 
-export default mangaUpdate
+export default gameUpdate

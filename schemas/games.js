@@ -1,6 +1,6 @@
 import joi from "joi"
 
-export const mangaCreate = joi.object({
+export const gameCreate = joi.object({
 
 
     author_id:joi.optional(),

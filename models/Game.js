@@ -12,7 +12,7 @@ let schema = new mongoose.Schema({
   timestamps: true
 })
 
-let collection = 'mangas'
+let collection = 'games'
 
-let Manga = mongoose.model(collection, schema)
-export default Manga
+let Game = mongoose.model(collection, schema)
+export default Game

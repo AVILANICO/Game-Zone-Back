@@ -1,8 +1,8 @@
-import Manga from "../../models/Manga.js";
+import Game from "../../models/Game.js";
 
 let update =async(req,res,next)=>{
     try {
-        let update = await Manga.findByIdAndUpdate(req.params.id, req.body, {new:true})
+        let update = await Game.findByIdAndUpdate(req.params.id, req.body, {new:true})
         //req.body es el objeto actualizado
         .populate('category_id')
 

@@ -1,39 +1,39 @@
 export let authors = [{
-    name: "alejandro",
+    name: "nicolas",
+    city: "cordoba",
+    country: "argentina",
+    photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
+    active: true,
+    user_id: 'nicolas@mh.com.ar'
+},{
+    name: "francisco",
+    last_name: "pedicino",
     city: "buenos aires",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'alejandro@mh.com.ar'
+    user_id: 'francisco@mh.com.ar'
 },{
-    name: "lucas",
-    last_name: "silva",
-    city: "buenos aires",
-    country: "argentina",
+    name: "diego",
+    last_name: "cuellar",
+    city: "bogota",
+    country: "colombia",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'lucas@mh.com.ar'
+    user_id: 'diego@mh.com.ar'
 },{
-    name: "jose",
-    last_name: "lopez",
-    city: "villa carlos paz",
-    country: "argentina",
+    name: "laureano",
+    city: "cartagena",
+    country: "colombia",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'jose@mh.com.ar'
+    user_id: 'laureano@mh.com.ar'
 },{
-    name: "eric",
-    city: "resistencia",
-    country: "argentina",
+    name: "luis",
+    last_name: "hernandez",
+    city: "monteria",
+    country: "colombia",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'eric@mh.com.ar'
-},{
-    name: "igna",
-    last_name: "borraz",
-    city: "rosario",
-    country: "argentina",
-    photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
-    active: true,
-    user_id: 'igna@mh.com.ar'
+    user_id: 'luis@mh.com.ar'
 }]
