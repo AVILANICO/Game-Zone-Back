@@ -1,5 +1,5 @@
 import createHttpError from "http-errors";
-import Manga from "../../models/Manga.js";
+import Game from "../../models/Game.js";
 
 let create = async(req, res, next) => {
   
@@ -8,7 +8,7 @@ let create = async(req, res, next) => {
   req.body.cover_photo = firebaseUrl;
   
   try {
-    let one = await new Manga(req.body)
+    let one = await new Game(req.body)
     await one.save()
     return res.status(201).json({
         success: 'ok',

@@ -1,8 +1,8 @@
-import Manga from "../../models/Manga.js"; 
+import Game from "../../models/Game.js"; 
 
 let get_Me=async(req,res,next)=>{
     try {
-        const mangas = await Manga.find({ author_id: req.body.author_id })
+        const mangas = await Game.find({ author_id: req.body.author_id })
         .populate('author_id','name -_id')
         .populate('category_id')
         .populate('company_id')

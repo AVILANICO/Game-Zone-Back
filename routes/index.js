@@ -4,8 +4,7 @@ import usersRouter from './auth.js'
 import authorRouter from './authors.js'
 import categoriesRouter from './categories.js'
 import companiesRouter from './companies.js'
-import chaptersRouter from './chapters.js'
-import mangasRouter from './mangas.js'
+import gamesRouter from './games.js'
 import payments from './payments.js'
 
 const router = express.Router();
@@ -21,8 +20,7 @@ router.use('/auth', usersRouter)
 router.use('/authors', authorRouter)
 router.use('/categories', categoriesRouter)
 router.use('/companies', companiesRouter)
-router.use('/chapters', chaptersRouter)
-router.use('/mangas', mangasRouter)
+router.use('/games', gamesRouter)
 router.use('/payments', payments)
 
 export default router;

@@ -1,4 +1,4 @@
-import Manga from "../../models/Manga.js";
+import Game from "../../models/Game.js";
 
 let read = async (req, res, next) => {
     let queries = {}
@@ -26,13 +26,13 @@ let read = async (req, res, next) => {
 
     console.log(sort)
     try {
-        let all = await Manga
+        let all = await Game
             .find(queries)
             .sort(sort)
             .skip(pagination.page > 0 ? (pagination.page - 1) * pagination.limit : 0)
             .limit(pagination.limit > 0 ? pagination.limit : 0)
             .populate('category_id')
-            let count = await Manga
+            let count = await Game
             .estimatedDocumentCount(queries)
         return res.status(200).json({
             success: true,

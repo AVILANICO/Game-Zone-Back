@@ -1,9 +1,9 @@
-import Manga from "../../models/Manga.js";
+import Game from "../../models/Game.js";
 
 let destroy = async(req,res,next)=>{
     try {
 
-        let destroyed = await Manga.findOneAndDelete({_id:req.params.id})
+        let destroyed = await Game.findOneAndDelete({_id:req.params.id})
         if(destroyed){
           return res.status(200).json({
               success:true,
