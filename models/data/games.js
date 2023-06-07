@@ -14,6 +14,7 @@ export let games = [
         category_id: 'shooter',
         author_id: 'nicolas',
         price: 20
+
     },{
         title: 'Overwatch',
         cover_photo: 'https://i.blogs.es/9e7c92/captura-de-pantalla-2016-05-22-a-las-19.16.39/1366_2000.png',
@@ -36,6 +37,7 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'laureano',
         price: 20
+
     },{
         title: 'Brawlhalla',
         cover_photo: 'https://www.brawlhalla.com/c/uploads/2022/08/Brawlhalla_BoxArt_1920x1080.jpg',
@@ -94,6 +96,7 @@ export let games = [
         author_id: 'diego',
         company_id: 'Electronic Arts (EA)',
         price: 20
+
     },{
         title: 'FIFA 23',
         cover_photo: 'https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/GU1vXFJpbzGYNV6UN3U0Cnnb.png',
@@ -119,6 +122,7 @@ export let games = [
         category_id: 'survival',
         author_id: 'luis',
         price: 20
+
     },{
         title: 'Grounded',
         cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/962130/header.jpg?t=1684963474',
@@ -133,6 +137,7 @@ export let games = [
         category_id: 'survival',
         author_id: 'luis',
         price: 20
+
     },{
         title: 'UFC 4',
         cover_photo: 'https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2018/02/EA-SPORTS%E2%84%A2-UFC%C2%AE-3_20180223143052.png?fit=1920%2C1080&ssl=1',
@@ -141,7 +146,6 @@ export let games = [
         author_id: 'diego',
         company_id: 'Electronic Arts (EA)',
         price: 20
-
     },{
         title: 'V Rising',
         cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header_alt_assets_2_spanish.jpg?t=1684394834',
