@@ -5,6 +5,7 @@ import Carrito from '../models/Carrito.js'
 const contoller = {
     
     create: async (req,res,next) => {
+        console.log(req.headers);
         const { user } = req
         let game = await Games.findById(req.params.id)
         if(game){
