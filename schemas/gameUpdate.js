@@ -12,8 +12,8 @@ let gameUpdate=Joi.object({
 }),cover_photo:Joi.string().uri().message({
     "string.uri":"invalid_url"
 }),
-  category_id: Joi.optional()
-
+  category_id: Joi.optional(),
+  price:Joi.optional(),
 })
 
 export default gameUpdate
