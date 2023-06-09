@@ -6,6 +6,7 @@ import categoriesRouter from './categories.js'
 import companiesRouter from './companies.js'
 import gamesRouter from './games.js'
 import payments from './payments.js'
+import carritoRouter from './cart.js' 
 
 const router = express.Router();
 
@@ -22,5 +23,6 @@ router.use('/categories', categoriesRouter)
 router.use('/companies', companiesRouter)
 router.use('/games', gamesRouter)
 router.use('/payments', payments)
+router.use('/carrito', carritoRouter)
 
 export default router;
