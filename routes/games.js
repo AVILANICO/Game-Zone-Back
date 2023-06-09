@@ -15,10 +15,12 @@ import exist_title from "../middlewares/exist_title.js"
 import gameUpdate from "../schemas/gameUpdate.js";
 import upload_cover_photo from "../middlewares/upload_cover_photo.js";
 import uploadImage from '../services/firebase.cjs';
+import readAll from "../controllers/games/read.js";
 
 let router = Router()
 
 router.get('/',passport.authenticate('jwt',{session:false}), read)
+router.get("/all",passport.authenticate('jwt',{session:false}), readAll)
 router.get('/me',passport.authenticate('jwt',{session:false}),finds_id, get_Me)
 router.get('/:id', get_one)
 router.post('/games', create)
