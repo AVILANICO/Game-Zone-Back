@@ -34,8 +34,36 @@ const contoller = {
             next(error)
         }
     
-    }
+    },
 
+    destroyOne: async (req,res,next) => {
+        try {
+            let item = await Carrito.findByIdAndDelete( req.params.id )
+            if( item ){
+                return res
+                    .status(200)
+                    .json({
+                        message:'Item successfully deleted'
+                    })
+            }
+        } catch (error) {
+            next(error)
+        }
+    },
+
+    destroyAll: async (req,res,next) => {
+        const { user } = req
+        try {
+            await Cart.deleteMany( { user_id: user._id})
+            return res
+                .status(200)
+                .json({
+                    message: 'Cart successfully deleted'
+                })
+        } catch (error) {
+            next(error)
+        }
+    }
 }
 
 

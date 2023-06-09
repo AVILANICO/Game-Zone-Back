@@ -18,8 +18,8 @@ const app = express();
 app.set('views', path.join(__dirname, 'views')); //configuro donde van a estar las vistas
 app.set('view engine', 'ejs'); //configuro el motor de vistas generadas por el back
 
-app.use((req, res, next) => {next()})
 app.use(cors())
+app.use((req, res, next) => {next()})
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
