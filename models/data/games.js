@@ -30,6 +30,69 @@ export let games = [
         author_id: 'Nicolas',
         price: '20'
     },{
+        title: 'Gears of War 5',
+        cover_photo: 'https://wallpaperaccess.com/full/1097908.jpg',
+        description: 'Follows the story of Kait Diaz, who is on a journey to find out the origin of the Locust Horde, the main antagonistic faction of the Gears of War series.',
+        category_id: 'shooter',
+        author_id: 'Nicolas',
+        price: '18'
+    },{
+        title: 'Destiny 2',
+        cover_photo: 'https://wallpaperaccess.com/full/27583.jpg',
+        description: 'Similar to its predecessor, Destiny 2 is a first-person shooter game that incorporates role-playing and massively multiplayer online game (MMO) elements.',
+        category_id: 'shooter',
+        author_id: 'Nicolas',
+        price: '14'
+    },{
+        title: 'Doom Eternal',
+        cover_photo: 'https://wallpaperaccess.com/full/2495337.jpg',
+        description: "Set some time after the events of the 2016 game, the story follows the Doom Slayer once again, on a mission to end Hell's consumption of Earth and foil the alien Maykrs' plans to exterminate humanity.",
+        category_id: 'shooter',
+        author_id: 'Nicolas',
+        price: '12'
+    },{
+        title: 'Half Life 2',
+        cover_photo: 'https://images4.alphacoders.com/570/570284.jpg',
+        description: 'is a 2004 first-person shooter (FPS) game developed by Valve. It was first published by Valve for Windows through its distribution service Steam.',
+        category_id: 'shooter',
+        author_id: 'Nicolas',
+        price: '4'
+    },{
+        title: 'Halo: The Master Chief Collection',
+        cover_photo: 'https://www.xtrafondos.com/wallpapers/halo-the-master-chief-collection-season-3-10883.jpg',
+        description: 'Each of the six games in The Master Chief Collection brings its own multiplayer maps, modes and game types. With more than 120 multiplayer maps and countless ways to play with community-created Forge content, the Collection has the most diverse and expansive Halo multiplayer experience to date.',
+        category_id: 'shooter',
+        author_id: 'Nicolas',
+        price: '16'
+    },{
+        title: 'BIOSHOCK',
+        cover_photo: 'https://i.pinimg.com/originals/2c/f5/8d/2cf58de65f150ef380bfff3f81f7aef0.jpg',
+        description: 'is about a man whose plane crashes into the middle of the ocean. He discovers a bathysphere that transports him deep under the water and which places him in Rapture, a once-glorious city for everyone who wanted to leave the postwar power relations of the world and strike out on their own.',
+        category_id: 'shooter',
+        author_id: 'Nicolas',
+        price: '6'
+    },{
+        title: 'Warframe',
+        cover_photo: 'https://rare-gallery.com/mocahbig/67107-Warframe-4k-Ultra-HD-Wallpaper.jpg',
+        description: 'Warframe is a free-to-play action role-playing third-person shooter multiplayer online game developed and published by Digital Extremes.',
+        category_id: 'multiplayer',
+        author_id: 'Nicolas',
+        price: '9'
+    },{
+        title: 'HearthStone',
+        cover_photo: 'https://pixelz.cc/wp-content/uploads/2017/10/hearthstone-logo-uhd-8k-wallpaper.jpg',
+        description: 'Set within the Warcraft universe, Hearthstone is a digital-only, turn-based collectible card game which pits two opponents against each other.',
+        category_id: 'multiplayer',
+        author_id: 'Nicolas',
+        price: '3'
+    },{
+        title: 'World of Warcraft',
+        cover_photo: 'https://images3.alphacoders.com/123/1230603.jpg',
+        description: 'Set in the fictional world of Azeroth, WoW allows players to create avatar-style characters and explore a sprawling universe while interacting with nonreal players—called nonplayer characters (NPCs)—and other real-world players (PCs).',
+        category_id: 'multiplayer',
+        author_id: 'Nicolas',
+        price: '17'
+    },{
         title: 'Rocket League',
         cover_photo: 'https://cdn2.unrealengine.com/egs-social-rocketleague-news-1920x1080-1920x1080-975383433.jpg',
         description: 'Is an online sports game that combines the excitement of soccer with the speed and acrobatics of rocket-powered cars. Developed by Psyonix, the game offers a unique experience where players compete in 1v1, 2v2, 3v3, or 4v4 matches.',
@@ -118,21 +181,21 @@ export let games = [
         description: "Raft throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
         category_id: 'survival',
         author_id: 'Luis',
-        price: '20'
+        price: '10'
     },{
         title: 'Grounded',
         cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/962130/header.jpg?t=1684963474',
         description: "The world is a vast, beautiful and dangerous place – especially when you have been shrunk to the size of an ant. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
         category_id: 'survival',
         author_id: 'Luis',
-        price: '20'
+        price: '35'
     },{
         title: 'Valheim',
         cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg?t=1676365340',
         description: "Un brutal juego de supervivencia y exploración multijugador, ambientado en un purgatorio generado de forma procedural e inspirado en la cultura vikinga. ¡Lucha, construye y conquista tu viaje en una saga digna de la bendición de Odin!",
         category_id: 'survival',
         author_id: 'Luis',
-        price: '20'
+        price: '8'
     },{
         title: 'UFC 4',
         cover_photo: 'https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2018/02/EA-SPORTS%E2%84%A2-UFC%C2%AE-3_20180223143052.png?fit=1920%2C1080&ssl=1',
@@ -148,6 +211,97 @@ export let games = [
         description: "Despierta siendo un vampiro. Sal en busca de sangre para recuperar tus fuerzas y evade la abrasadora luz solar para sobrevivir. Alza tu castillo y progresa en un mundo abierto lleno de misterios que cambia constantemente. Gana aliados en línea y conquista las tierras de los vivos.",
         category_id: 'survival',
         author_id: 'Luis',
-        price: '20'
+        price: '9'
+    },{
+        title: 'Scum',
+        cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/513710/header.jpg?t=1685012078',
+        description: "SCUM aims to evolve the multiplayer open world survival game with unprecedented levels of character customization, control and progression, where knowledge and skills are the ultimate weapons for long-term survival.",
+        category_id: 'survival',
+        author_id: 'Luis',
+        price: '30'
+    },{
+        title: 'Green Hell',
+        cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg?t=1686131258',
+        description: "Green Hell is a grueling fight for survival in the Amazon jungle. Clinging to life, the player embarks on a journey of resilience as the effects of loneliness take their toll on body and mind. For how long can you survive in the face of dangers.",
+        category_id: 'survival',
+        author_id: 'Luis',
+        price: '7'
+    },{
+        title: 'Outward',
+        cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/794260/header.jpg?t=1676393902',
+        description: "Outward, the chill of the night or an infected wound can be just as dangerous as predators lurking in the dark. Explore the vast world of Aurai solo or in co-op. The Definitive Edition includes both DLC and improvements that enrich the game.",
+        category_id: 'survival',
+        author_id: 'Luis',
+        price: '8'
+    },{
+        title: 'Deadside',
+        cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/895400/header.jpg?t=1681825125',
+        description: "Deadside is a hardcore multiplayer shooter with survival elements. Post-Apocalypse, PvP, PvE, open world, realistic weapons, craft, base building.",
+        category_id: 'survival',
+        author_id: 'Luis',
+        price: '12'
+    },{
+        title: 'The Forest',
+        cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg?t=1666811027',
+        description: "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+        category_id: 'survival',
+        author_id: 'Luis',
+        price: '9'
+    },{
+        title: 'Forza Horizon 4',
+        cover_photo: 'https://tse1.mm.bing.net/th?id=OIP.rNHbHyxe9VQGbOgaGMbiKAHaEK&pid=Api&P=0&h=180',
+        description: "Forza Horizon 4 is an open world racing game set in a beautiful British setting. Explore a vast map, compete in a wide variety of events and challenges, and enjoy the thrill of high-speed driving. With an extensive catalog of cars and a content-rich progression system, Forza Horizon 4 offers an exceptional driving experience.",
+        category_id: 'race',
+        author_id: 'Francisco',
+        price: '12'
+    },{
+        title: 'Project CARS 2',
+        cover_photo: 'https://tse4.mm.bing.net/th?id=OIP.G6_3fmb9I7YKvoESpfJzCAHaEK&pid=Api&P=0&h=180',
+        description: "This racing simulator offers you a wide variety of automotive disciplines, from circuit racing to rallycross and endurance racing. With stunning graphics and a focus on realistic vehicle physics simulation, Project CARS 2 offers an immersive experience for racing enthusiasts.",
+        category_id: 'race',
+        author_id: 'Francisco',
+        price: '7'
+    },{
+        title: 'DiRT Rally 2.0',
+        cover_photo: 'https://images6.alphacoders.com/107/1070901.jpg',
+        description: "If you are a fan of offroad racing and rally then this game is for you. DiRT Rally 2.0 challenges you to master difficult terrain and harsh weather conditions as you compete in some of the world's most famous rallies. Precision driving and attention to detail make this game an excellent choice for rally racing fans.",
+        category_id: 'race',
+        author_id: 'Francisco',
+        price: '2'
+    },{
+        title: 'TrackMania Turbo',
+        cover_photo: 'https://tse1.mm.bing.net/th?id=OIP.i8y8-KRGwTvhD25njOadEAHaEK&pid=Api&P=0&h=180',
+        description: "TrackMania Turbo is an arcade racing game that combines breakneck speed with outrageous stunts and surreal tracks. With its focus on fun and competitiveness, this game allows you to compete against players from around the world on a wide variety of creative and challenging courses.",
+        category_id: 'race',
+        author_id: 'Francisco',
+        price: '9'
+    },{
+        title: 'Among Us',
+        cover_photo: 'https://fondosmil.com/fondo/76181.jpg',
+        description: "Among Us is an online social deduction game where players take on the roles of crew members on a spaceship. However, there are impostors in the group who will try to eliminate the crew without being discovered. Crew members must work together to complete tasks and find out who the impostors are. Communication and deception are critical to winning",
+        category_id: 'multiplayer',
+        author_id: 'Laureano',
+        price: '6'
+    },{
+        title: 'Sea of Thieves',
+        cover_photo: 'https://wallpapercave.com/wp/wp5772031.jpg',
+        description: "Sea of Thieves is an online adventure game where players take on the role of pirates in a shared open world. Players can form crews with friends and embark on exciting sea voyages, searching for treasure, battling other players and facing off against mythical creatures. Cooperation and strategy are essential to succeed in this vast pirate world.",
+        category_id: 'multiplayer',
+        author_id: 'Laureano',
+        price: '9'
+    },{
+        title: 'E Football 2023',
+        cover_photo: 'https://wallpapercave.com/wp/wp11424883.jpg',
+        description: "Is a realistic soccer game that offers an immersive experience on the pitch. With official team and player licenses, you can enjoy exciting matches with stunning graphics and smooth gameplay. Master the controls and strategies to outplay your opponents and experience the excitement of soccer in a new dimension.",
+        category_id: 'sport',
+        author_id: 'Diego',
+        price: '17'
+    },{
+        title: 'Tennis World Tour 2',
+        cover_photo: 'https://generacionxbox.com/wp-content/uploads/2020/09/Tennis_World_Tour_2_Cover_GX.jpg',
+        description: "Tennis World Tour 2 immerses you in the world of professional tennis, allowing you to compete against the best players in renowned tournaments. Create and customize your own player, improve your skills and play on a variety of court surfaces. Experience the intensity of rallying and use clever tactics to win matches and rise to the top of the world rankings in this realistic tennis game.Tennis World Tour 2 immerses you in the world of professional tennis, allowing you to compete against the best players in renowned tournaments. Create and customize your own player, improve your skills and play on a variety of court surfaces. Experience the intensity of rallying and use clever tactics to win matches and rise to the top of the world rankings in this realistic tennis game.",
+        category_id: 'sport',
+        author_id: 'Diego',
+        price: '11'
     }
 ]
