@@ -3,7 +3,7 @@ import Game from "../../models/Game.js";
 let get_Me=async(req,res,next)=>{
     try {
         const mangas = await Game.find({ author_id: req.body.author_id })
-        .populate('author_id','name -_id')
+        .populate('author_id','name cover_photo -_id')
         .populate('category_id')
         .populate('company_id')
         if (mangas) {
