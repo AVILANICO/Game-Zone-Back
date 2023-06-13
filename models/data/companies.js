@@ -47,4 +47,193 @@ export let companies = [{
     description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
     active: true,
     user_id: "digital@team.com.ar"
+},{
+    name: "Gamepires",
+    logo: "https://karijere.fer.hr/wp-content/uploads/2020/09/36b607e25efd9f4f48e91c706915303a1209_icon.png",
+    website: "https://gamepires.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "gamepires@team.com.ar"
+},{
+    name: "Creepy Jar",
+    logo: "https://tse4.mm.bing.net/th?id=OIP._uWevlFjXxC6uJ3K0gV4JwHaD4&pid=Api&P=0&h=180",
+    website: "https://creepyjar.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "creepyjar@team.com.ar"
+},{
+    name: "Nine Dots Studio",
+    logo: "https://www.laguilde.quebec/wp-content/uploads/2020/08/logo-under-1mb.jpg",
+    website: "https://ninedots.studio/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "ninedotsstudio@team.com.ar"
+},{
+    name: "Endnight Games",
+    logo: "https://images.igdb.com/igdb/image/upload/t_720p/cl1lw.jpg",
+    website: "https://endnightgames.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "endnightgames@team.com.ar"
+},{
+    name: "Playground Games",
+    logo: "https://www.digikala.com/mag/wp-content/uploads/2017/11/PlaygroundGames.jpg",
+    website: "https://playground-games.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "playgroundgames@team.com.ar"
+},{
+    name: "Slightly Mad Studios",
+    logo: "https://www.gameaxis.com/wp-content/uploads/2019/01/slightly-mad-studios-logo-white.jpg",
+    website: "https://www.slightlymadstudios.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "slightlymadstudios@team.com.ar"
+},{
+    name: "Codemasters",
+    logo: "https://tse4.mm.bing.net/th?id=OIP.dRYn00aY6dgUIKqyERfuuwHaEz&pid=Api&P=0&h=180",
+    website: "https://www.ea.com/ea-studios/codemasters",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "codemasters@team.com.ar"
+},{
+    name: "Nadeo",
+    logo: "https://wholesgame.com/wp-content/uploads/Nadeo-Logo-PNG.png",
+    website: "https://gamepires.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "nadeo@team.com.ar"
+},{
+    name: "Infinity Ward",
+    logo: "https://www.gamedynamo.com/images/galleries/photo/2264/activision-infinity-ward-42-million-news-2.jpg",
+    website: "https://www.infinityward.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "infinityward@team.com.ar"
+},{
+    name: "Bungie",
+    logo: "https://static.wikia.nocookie.net/halo/images/2/28/BungieLogo-1-.png/revision/latest?cb=20110313145826&path-prefix=es",
+    website: "https://www.bungie.net/7",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "bungie@team.com.ar"
+},{
+    name: "Id Software",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNDOFQF9wiJ_lpLirmXZPU6yRr-kTDLoZCw&usqp=CAU",
+    website: "https://www.idsoftware.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "idsoftware@team.com.ar"
+},{
+    name: "343 Industries",
+    logo: "https://www.somosxbox.com/wp-content/uploads/2023/01/343-Industries-logo.jpg",
+    website: "https://www.343industries.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "343industries@team.com.ar"
+},{
+    name: "Irrational Games",
+    logo: "https://www.godisageek.com/wp-content/uploads/Irrational.jpg",
+    website: "https://www.ghoststorygames.com/irrational-games/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "irrationalgames@team.com.ar"
+},{
+    name: "Digital Extremes",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRfA7Inm5qd1TbLy5zFIsyKHWM-y9N2uNpln8Io368z5wKcKm1viFUoOjJRKAszAL9nmw&usqp=CAU",
+    website: "https://www.digitalextremes.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "digitalextremes@team.com.ar"
+},{
+    name: "Psyonix",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvHM_7YeDa9JGJmJswMen4xzpRBB-6myDUg&usqp=CAU",
+    website: "https://www.psyonix.com/es-mx/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "psyonix@team.com.ar"
+},{
+    name: "Blue Mammoth",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsLMG54KR6KxPnki2jVTR6wchQa8cZyAA0Ij09YyLJQHnHmY06vcBi5T4dualX7ynwinw&usqp=CAU",
+    website: "https://www.bluemammoth.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "bluemammoth@team.com.ar"
+},{
+    name: "Riot Games",
+    logo: "https://media.tycsports.com/files/2023/05/05/564539/riot-games_1440x810_wmk.webp?v=3",
+    website: "https://www.riotgames.com/es",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "riotgames@team.com.ar"
+},{
+    name: "Kunos Simulazioni",
+    logo: "https://media.moddb.com/images/groups/1/18/17283/preview.png",
+    website: "http://www.kunos-simulazioni.com/main/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "kunos@team.com.ar"
+},{
+    name: "Redbeet Interactive",
+    logo: "https://theme.zdassets.com/theme_assets/2379261/12b72d61dbc81d65ff78740eb0b824c311435898.png",
+    website: "https://redbeetinteractive.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "redbeet@team.com.ar"
+},{
+    name: "Obsidian Entertainment",
+    logo: "https://static.wikia.nocookie.net/fallout/images/8/87/Obsidian_Entertainment.png/revision/latest?cb=20180322171903&path-prefix=es",
+    website: "https://www.obsidian.net/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "obsidianentertainment@team.com.ar"
+},{
+    name: "Iron Gate Studio",
+    logo: "https://skoli.ru/static/images/companies/iron-gate-studio-16x9.jpg",
+    website: "https://irongatestudio.se/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "irongatestudio@team.com.ar"
+},{
+    name: "Stunlock Studios",
+    logo: "https://static.stunlockstudios.com/www/images/about/anonymous.jpg",
+    website: "https://www.stunlock.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "stunlockstudios@team.com.ar"
+},{
+    name: "Bad Pixel",
+    logo: "https://media.indiedb.com/images/groups/1/22/21059/baner_02.png",
+    website: "https://badpixel.ca/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "badpixel@team.com.ar"
+},{
+    name: "InnerSloth",
+    logo: "https://www.ciol.com/wp-content/uploads/2020/10/Innersloth.jpg",
+    website: "https://www.innersloth.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "innersloth@team.com.ar"
+},{
+    name: "Rare Ltd",
+    logo: "https://static.wikia.nocookie.net/rare/images/6/66/Rare_Logo_2015.png/revision/latest?cb=20190310041927",
+    website: "https://www.rare.co.uk/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "rareltd@team.com.ar"
+},{
+    name: "Konami",
+    logo: "https://i.blogs.es/8e523a/konami/1366_2000.png",
+    website: "https://www.konami.com/efootball/es/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "konami@team.com.ar"
+},{
+    name: "Breakpoint Studio",
+    logo: "https://cdn.dribbble.com/users/97179/screenshots/2765303/dribbble_breakpoint_logo.png",
+    website: "https://breakpointstudio.com/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "breakpointstudio@team.com.ar"
 }]

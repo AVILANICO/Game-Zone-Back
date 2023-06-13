@@ -4,7 +4,7 @@ let get_Me=async(req,res,next)=>{
     try {
         const games = await Game.find({ author_id: req.body.author_id })
         .populate('author_id','name cover_photo -_id')
-        .populate('category_id', 'name -_id')
+        .populate('category_id', 'name _id')
         .populate('company_id', 'name logo -_id')
         if (games) {
             return res.status(200).json({
