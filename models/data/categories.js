@@ -15,7 +15,7 @@ export let categories = [
         character_photo: "https://i.blogs.es/96a169/050819-mejores-fps-pc/1366_2000.jpeg",
         cover_photo: "https://assets.spartangeek.com/cc/descargar-juego-de-disparos-call-of-duty.jpg",
         video: 'https://www.youtube.com/watch?v=L7eSj0MkuVE&ab_channel=NicolasAvila'
-    },{
+  },{
         name: "race",
         color: "#FFFFFF",
         hover: "#000000",

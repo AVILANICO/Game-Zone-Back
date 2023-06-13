@@ -6,7 +6,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Valve Corporation',
-        price: '20',
+        price: 20,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=KnpljMWwy3o&ab_channel=Throneful'
     },{
         title: 'Call of Duty: Modern Warfare',
@@ -15,7 +16,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Infinity Ward',
-        price: '20',
+        price: 20,
+        stock: 7,
         gameplay: 'https://www.youtube.com/watch?v=aflFoHRCmRg&ab_channel=MKIceAndFire'
     },{
         title: 'Overwatch',
@@ -24,7 +26,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Blizzard Entertainment',
-        price: '20',
+        price: 20,
+        stock: 3,
         gameplay: 'https://www.youtube.com/watch?v=lkTHRdZzl1o&ab_channel=OrbitalGameplay'
     },{
         title: 'Battlefield V',
@@ -33,7 +36,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 15,
         gameplay: 'https://www.youtube.com/watch?v=kSsnZf3e6rk&ab_channel=Tripulante'
     },{
         title: 'Gears of War 5',
@@ -42,7 +46,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Epic Games',
-        price: '18',
+        price: 18,
+        stock: 9,
         gameplay: 'https://www.youtube.com/watch?v=NbP64WkUFpc&ab_channel=DarkPlayerGamingTV'
     },{
         title: 'Destiny 2',
@@ -51,7 +56,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Bungie',
-        price: '14',
+        price: 14,
+        stock: 1,
         gameplay: 'https://www.youtube.com/watch?v=FhAOsQ8ujig&ab_channel=Throneful'
     },{
         title: 'Doom Eternal',
@@ -60,7 +66,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Id Software',
-        price: '12',
+        price: 12,
+        stock: 4,
         gameplay: 'https://www.youtube.com/watch?v=DEvGYcOrhI0&ab_channel=DarkPlayerGamingTV'
     },{
         title: 'Half Life 2',
@@ -69,7 +76,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Valve Corporation',
-        price: '4',
+        price: 4,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=56ETaQwnWBI&ab_channel=KahunaLongplays'
     },{
         title: 'Halo: The Master Chief Collection',
@@ -78,7 +86,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: '343 Industries',
-        price: '16',
+        price: 16,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=AuHfebcx_Nc&ab_channel=GameplayRemastered'
     },{
         title: 'BIOSHOCK',
@@ -87,7 +96,8 @@ export let games = [
         category_id: 'shooter',
         author_id: 'Nicolas',
         company_id: 'Irrational Games',
-        price: '6',
+        price: 6,
+        stock: 7,
         gameplay: 'https://www.youtube.com/watch?v=yxsAAOTl5yM&ab_channel=MenosTrece'
     },{
         title: 'Warframe',
@@ -96,7 +106,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Nicolas',
         company_id: 'Digital Extremes',
-        price: '9',
+        price: 9,
+        stock: 7,
         gameplay: 'https://www.youtube.com/watch?v=xHITzEPc8LE&ab_channel=WasakiRyuu'
     },{
         title: 'HearthStone',
@@ -105,7 +116,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Nicolas',
         company_id: 'Blizzard Entertainment',
-        price: '3',
+        price: 3,
+        stock: 14,
         gameplay: 'https://www.youtube.com/watch?v=hUi0eFuTi-g&ab_channel=Throneful'
     },{
         title: 'World of Warcraft',
@@ -114,7 +126,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Nicolas',
         company_id: 'Blizzard Entertainment',
-        price: '17',
+        price: 17,
+        stock: 16,
         gameplay: 'https://www.youtube.com/watch?v=DJaANEbcjuQ&ab_channel=Throneful'
     },{
         title: 'Rocket League',
@@ -123,7 +136,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Laureano',
         company_id: 'Psyonix',
-        price: '20',
+        price: 20,
+        stock: 17,
         gameplay: 'https://www.youtube.com/watch?v=nc-g7GHsiAg&ab_channel=OrbitalGameplay'
     },{
         title: 'Brawlhalla',
@@ -132,7 +146,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Laureano',
         company_id: 'Blue Mammoth',
-        price: '20',
+        price: 20,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=z47xVz_YOsg&ab_channel=RosGamer_xD'
     },{
         title: 'League of Legends',
@@ -141,7 +156,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Laureano',
         company_id: 'Riot Games',
-        price: '20',
+        price: 20,
+        stock: 2,
         gameplay: 'https://www.youtube.com/watch?v=p4QG59y6FGE&ab_channel=MindYourGames'
     },{
         title: 'Fortnite',
@@ -150,7 +166,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Laureano',
         company_id: 'Epic Games',
-        price: '20',
+        price: 20,
+        stock: 4,
         gameplay: 'https://www.youtube.com/watch?v=_448_hcUEJQ&ab_channel=SENSEI'
     },{
         title: 'Need for Speed: World',
@@ -159,7 +176,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 11,
         gameplay: 'https://www.youtube.com/watch?v=N_Mp-6vWt1M&ab_channel=MSGW'
     },{
         title: 'F1 Championship Season 2007',
@@ -168,7 +186,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 12,
         gameplay: 'https://www.youtube.com/watch?v=rTIB9QqeZ64&ab_channel=RacingELV'
     },{
         title: 'GRID Autosport',
@@ -177,7 +196,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Codemasters',
-        price: '20',
+        price: 20,
+        stock: 8,
         gameplay: 'https://www.youtube.com/watch?v=uFd9D5umAbE&ab_channel=Throneful'
     },{
         title: 'Assetto Corsa Competizione: British GT Pack',
@@ -186,7 +206,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Kunos Simulazioni',
-        price: '20',
+        price: 20,
+        stock: 8,
         gameplay: 'https://www.youtube.com/watch?v=TMpqgvv-O-k&ab_channel=ALL-IN'
     },{
         title: 'NBA 2K23',
@@ -195,7 +216,8 @@ export let games = [
         category_id: 'sport',
         author_id: 'Diego',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=O9pY2o6_CR4&ab_channel=Vandal'
     },{
         title: 'FIFA 23',
@@ -204,7 +226,8 @@ export let games = [
         category_id: 'sport',
         author_id: 'Diego',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=aOktuNeCynA&ab_channel=MatyGames'
 
     },{
@@ -214,7 +237,8 @@ export let games = [
         category_id: 'sport',
         author_id: 'Diego',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=gtwPUOEguUM&ab_channel=Throneful'
 
     },{
@@ -224,7 +248,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Redbeet Interactive',
-        price: '10',
+        price: 10,
+        stock: 3,
         gameplay: 'https://www.youtube.com/watch?v=yemr1TTAlP0&ab_channel=MenosTrece'
     },{
         title: 'Grounded',
@@ -233,7 +258,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Obsidian Entertainment',
-        price: '35',
+        price: 35,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=j5M72jlybC0&ab_channel=MenosTrece'
     },{
         title: 'Valheim',
@@ -242,7 +268,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Iron Gate Studio',
-        price: '8',
+        price: 8,
+        stock: 6,
         gameplay: 'https://www.youtube.com/watch?v=04nMpDMQzBk&ab_channel=MenosTrece'
     },{
         title: 'UFC 4',
@@ -251,7 +278,8 @@ export let games = [
         category_id: 'sport',
         author_id: 'Diego',
         company_id: 'Electronic Arts (EA)',
-        price: '20',
+        price: 20,
+        stock: 8,
         gameplay: 'https://www.youtube.com/watch?v=LsCYaEOpwJU&ab_channel=Throneful'
 
     },{
@@ -261,7 +289,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Stunlock Studios',
-        price: '9',
+        price: 9,
+        stock: 11,
         gameplay: 'https://www.youtube.com/watch?v=IiVsYnTSL3o&ab_channel=Throneful'
     },{
         title: 'Scum',
@@ -270,7 +299,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Gamepires',        
-        price: '30',
+        price: 30,
+        stock: 19,
         gameplay: 'https://www.youtube.com/watch?v=YkxBGPfNYY0&ab_channel=MenosTrece'
     },{
         title: 'Green Hell',
@@ -279,7 +309,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Creepy Jar',
-        price: '7',
+        price: 7,
+        stock: 12,
         gameplay: 'https://www.youtube.com/watch?v=L443dzwfZ9I&ab_channel=MenosTrece'
     },{
         title: 'Outward',
@@ -288,7 +319,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Nine Dots Studio',
-        price: '8',
+        price: 8,
+        stock: 20,
         gameplay: 'https://www.youtube.com/watch?v=R4r9BHhc7GA&ab_channel=BuckFernandez'
     },{
         title: 'Deadside',
@@ -297,7 +329,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Bad Pixel',
-        price: '12',
+        price: 12,
+        stock: 6,
         gameplay: 'https://www.youtube.com/watch?v=QsMI3x1G9dw&ab_channel=MenosTrece'
     },{
         title: 'The Forest',
@@ -306,7 +339,8 @@ export let games = [
         category_id: 'survival',
         author_id: 'Luis',
         company_id: 'Endnight Games',
-        price: '9',
+        price: 9,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=lTkzszCy8gw&ab_channel=MenosTrece'
     },{
         title: 'Forza Horizon 4',
@@ -315,7 +349,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Playground Games',
-        price: '12',
+        price: 12,
+        stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=ejVlWiYER1M&ab_channel=PS360HD'
     },{
         title: 'Project CARS 2',
@@ -324,7 +359,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Slightly Mad Studios',
-        price: '7',
+        price: 7,
+        stock: 3,
         gameplay: 'https://www.youtube.com/watch?v=on1_gcCOpcA&ab_channel=Shirrako'
     },{
         title: 'DiRT Rally 2.0',
@@ -333,7 +369,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Codemasters',
-        price: '2',
+        price: 2,
+        stock: 3,
         gameplay: 'https://www.youtube.com/watch?v=nlQUwD1r3sE&ab_channel=Xpertgamingtech'
     },{
         title: 'TrackMania Turbo',
@@ -342,7 +379,8 @@ export let games = [
         category_id: 'race',
         author_id: 'Francisco',
         company_id: 'Nadeo',
-        price: '9',
+        price: 9,
+        stock: 22,
         gameplay: 'https://www.youtube.com/watch?v=2t7Egbyf2sQ&ab_channel=Throneful'
     },{
         title: 'Among Us',
@@ -351,7 +389,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Laureano',
         company_id: 'InnerSloth',
-        price: '6',
+        price: 6,
+        stock: 1,
         gameplay: 'https://www.youtube.com/watch?v=p0aHDT8wwrw&ab_channel=Hornster'
     },{
         title: 'Sea of Thieves',
@@ -360,7 +399,8 @@ export let games = [
         category_id: 'multiplayer',
         author_id: 'Laureano',
         company_id: 'Rare Ltd',
-        price: '9',
+        price: 9,
+        stock: 3,
         gameplay: 'https://www.youtube.com/watch?v=QL6xxFyGp_k&ab_channel=Throneful'
     },{
         title: 'E Football 2023',
@@ -369,7 +409,8 @@ export let games = [
         category_id: 'sport',
         author_id: 'Diego',
         company_id: 'Konami',
-        price: '17',
+        price: 17,
+        stock: 18,
         gameplay: 'https://www.youtube.com/watch?v=0df3e_wt48Q&ab_channel=Throneful'
     },{
         title: 'Tennis World Tour 2',
@@ -378,7 +419,8 @@ export let games = [
         category_id: 'sport',
         author_id: 'Diego',
         company_id: 'Breakpoint Studio',
-        price: '11',
+        price: 11,
+        stock: 14,
         gameplay: 'https://www.youtube.com/watch?v=v4mma-9qDqI&ab_channel=Throneful'
     }
-]
+] 
