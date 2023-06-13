@@ -26,7 +26,7 @@ router.get('/:id', get_one)
 router.post('/games', create)
 router.post('/', upload_cover_photo(), uploadImage, passport.authenticate('jwt',{session:false}),validator(gameCreate), is_active, exist_title, is_property_of, create)
 router.put('/:id', passport.authenticate('jwt',{session:false}), validator(gameUpdate),finds_id, is_active, is_property_of, update)
-router.delete('/:id', passport.authenticate('jwt',{session:false}), finds_id, is_active, is_property_of, destroy)
+router.delete('/:id', passport.authenticate('jwt',{session:false}), destroy)
 
 export default router;
 

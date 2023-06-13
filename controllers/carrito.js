@@ -36,6 +36,24 @@ const contoller = {
         }
     
     },
+    update: async (req,res,next) => {
+        try {
+            let product = await Carrito.findByIdAndUpdate(
+                req.params.id,
+                { cantidad: req.body.cantidad}
+                )
+            if (product){
+                return res 
+                    .status(200)
+                    .json({
+                        message: 'Cantidad fue actualizada',
+                    })
+            }
+        } catch (error) {
+            next(error)
+        }
+    },
+
 
     destroyOne: async (req,res,next) => {
         try {
@@ -55,7 +73,7 @@ const contoller = {
     destroyAll: async (req,res,next) => {
         const { user } = req
         try {
-            await Cart.deleteMany( { user_id: user._id})
+            await Carrito.deleteMany( { user_id: user._id})
             return res
                 .status(200)
                 .json({
