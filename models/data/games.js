@@ -381,4 +381,4 @@ export let games = [
         price: '11',
         gameplay: 'https://www.youtube.com/watch?v=v4mma-9qDqI&ab_channel=Throneful'
     }
-]
+] 
