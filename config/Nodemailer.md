@@ -27,7 +27,7 @@ Nota: para este paso el EMAIL Y EMAIL_PASS tienes que crearlos, los pasos son:
      poder enviar el correo
 
 
-- Usa el método transporter.sendMail para enviar un correo electrónico con el remitente "Minga" <mingaverdemh@gmail.com>, el destinatario user.mail, el asunto "Verify your email..." y el contenido HTML "<b>Hello world?</b>". Este método devuelve una promesa que se espera con await y se guarda en la variable info.
+- Usa el método transporter.sendMail para enviar un correo electrónico con el remitente "GameZone" <zonadejuegos46@gmail.com>, el destinatario user.mail, el asunto "Verify your email..." y el contenido HTML "<b>Hello world?</b>". Este método devuelve una promesa que se espera con await y se guarda en la variable info.
 
 - Devuelve la variable infoEmail que contiene información sobre el correo electrónico enviado.
 

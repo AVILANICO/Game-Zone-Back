@@ -7,7 +7,7 @@ let schema = new Schema({
   country: {type: String, required: true},
   date: {type: Date}, // por defecto si no aclaro que es requererido es false
   photo: {type: String, required: true},
-  cover_photo:{type: String, required:false},
+  cover_photo: {type: String, required: false},
   active: {type: Boolean, required: true},
   user_id: {
     type: Types.ObjectId, //tipo de datos de mongoose para referenciar datos de una coleccion con datos de otra coleccion, este caso la coleccion de autores con la coleccion de usuarios.

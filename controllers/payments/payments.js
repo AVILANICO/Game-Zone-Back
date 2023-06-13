@@ -4,6 +4,7 @@ import mercadopago from 'mercadopago';
 const payments = async (req, res, next) => {
   try {
     mercadopago.configure({ access_token: process.env.ACCESS_TOKEN })
+    
     const preference = {
       items: [
         {
