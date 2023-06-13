@@ -117,69 +117,6 @@ export let games = [
         price: '17',
         gameplay: 'https://www.youtube.com/watch?v=DJaANEbcjuQ&ab_channel=Throneful'
     },{
-        title: 'Gears of War 5',
-        cover_photo: 'https://wallpaperaccess.com/full/1097908.jpg',
-        description: 'Follows the story of Kait Diaz, who is on a journey to find out the origin of the Locust Horde, the main antagonistic faction of the Gears of War series.',
-        category_id: 'shooter',
-        author_id: 'Nicolas',
-        price: '18'
-    },{
-        title: 'Destiny 2',
-        cover_photo: 'https://wallpaperaccess.com/full/27583.jpg',
-        description: 'Similar to its predecessor, Destiny 2 is a first-person shooter game that incorporates role-playing and massively multiplayer online game (MMO) elements.',
-        category_id: 'shooter',
-        author_id: 'Nicolas',
-        price: '14'
-    },{
-        title: 'Doom Eternal',
-        cover_photo: 'https://wallpaperaccess.com/full/2495337.jpg',
-        description: "Set some time after the events of the 2016 game, the story follows the Doom Slayer once again, on a mission to end Hell's consumption of Earth and foil the alien Maykrs' plans to exterminate humanity.",
-        category_id: 'shooter',
-        author_id: 'Nicolas',
-        price: '12'
-    },{
-        title: 'Half Life 2',
-        cover_photo: 'https://images4.alphacoders.com/570/570284.jpg',
-        description: 'is a 2004 first-person shooter (FPS) game developed by Valve. It was first published by Valve for Windows through its distribution service Steam.',
-        category_id: 'shooter',
-        author_id: 'Nicolas',
-        price: '4'
-    },{
-        title: 'Halo: The Master Chief Collection',
-        cover_photo: 'https://www.xtrafondos.com/wallpapers/halo-the-master-chief-collection-season-3-10883.jpg',
-        description: 'Each of the six games in The Master Chief Collection brings its own multiplayer maps, modes and game types. With more than 120 multiplayer maps and countless ways to play with community-created Forge content, the Collection has the most diverse and expansive Halo multiplayer experience to date.',
-        category_id: 'shooter',
-        author_id: 'Nicolas',
-        price: '16'
-    },{
-        title: 'BIOSHOCK',
-        cover_photo: 'https://i.pinimg.com/originals/2c/f5/8d/2cf58de65f150ef380bfff3f81f7aef0.jpg',
-        description: 'is about a man whose plane crashes into the middle of the ocean. He discovers a bathysphere that transports him deep under the water and which places him in Rapture, a once-glorious city for everyone who wanted to leave the postwar power relations of the world and strike out on their own.',
-        category_id: 'shooter',
-        author_id: 'Nicolas',
-        price: '6'
-    },{
-        title: 'Warframe',
-        cover_photo: 'https://rare-gallery.com/mocahbig/67107-Warframe-4k-Ultra-HD-Wallpaper.jpg',
-        description: 'Warframe is a free-to-play action role-playing third-person shooter multiplayer online game developed and published by Digital Extremes.',
-        category_id: 'multiplayer',
-        author_id: 'Nicolas',
-        price: '9'
-    },{
-        title: 'HearthStone',
-        cover_photo: 'https://pixelz.cc/wp-content/uploads/2017/10/hearthstone-logo-uhd-8k-wallpaper.jpg',
-        description: 'Set within the Warcraft universe, Hearthstone is a digital-only, turn-based collectible card game which pits two opponents against each other.',
-        category_id: 'multiplayer',
-        author_id: 'Nicolas',
-        price: '3'
-    },{
-        title: 'World of Warcraft',
-        cover_photo: 'https://images3.alphacoders.com/123/1230603.jpg',
-        description: 'Set in the fictional world of Azeroth, WoW allows players to create avatar-style characters and explore a sprawling universe while interacting with nonreal players—called nonplayer characters (NPCs)—and other real-world players (PCs).',
-        category_id: 'multiplayer',
-        author_id: 'Nicolas',
-        price: '17'
-    },{
         title: 'Rocket League',
         cover_photo: 'https://cdn2.unrealengine.com/egs-social-rocketleague-news-1920x1080-1920x1080-975383433.jpg',
         description: 'Is an online sports game that combines the excitement of soccer with the speed and acrobatics of rocket-powered cars. Developed by Psyonix, the game offers a unique experience where players compete in 1v1, 2v2, 3v3, or 4v4 matches.',
@@ -289,7 +226,6 @@ export let games = [
         company_id: 'Redbeet Interactive',
         price: '10',
         gameplay: 'https://www.youtube.com/watch?v=yemr1TTAlP0&ab_channel=MenosTrece'
-
     },{
         title: 'Grounded',
         cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/962130/header.jpg?t=1684963474',
@@ -354,7 +290,6 @@ export let games = [
         company_id: 'Nine Dots Studio',
         price: '8',
         gameplay: 'https://www.youtube.com/watch?v=R4r9BHhc7GA&ab_channel=BuckFernandez'
-
     },{
         title: 'Deadside',
         cover_photo: 'https://cdn.cloudflare.steamstatic.com/steam/apps/895400/header.jpg?t=1681825125',
