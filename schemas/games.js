@@ -26,5 +26,7 @@ export const gameCreate = joi.object({
         "string.empty": "description is not allowed to be empty"
 
     }),
-
+    price: joi.optional(),
+    stock: joi.optional(),
+    gameplay: joi.optional(),
 })
