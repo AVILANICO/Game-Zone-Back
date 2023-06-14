@@ -236,4 +236,11 @@ export let companies = [{
     description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
     active: true,
     user_id: "breakpointstudio@team.com.ar"
+},{
+    name: "Other..",
+    logo: "https://images.squarespace-cdn.com/content/v1/607aea04c534cf4f9c9579ab/49543247-218d-456a-9212-5e4eb728f170/NinaLilliebjerg_OtherCo_Design_02-14.png",
+    website: "https://www.google.com.ar/",
+    description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
+    active: true,
+    user_id: "other@team.com.ar"
 }]

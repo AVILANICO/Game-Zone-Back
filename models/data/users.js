@@ -318,4 +318,12 @@ export let users = [{
     verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
     is_online: false,
     photo: "https://cdn.dribbble.com/users/97179/screenshots/2765303/dribbble_breakpoint_logo.png"
+},{
+    email: "other@team.com.ar",
+    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
+    role: 2,
+    is_verified: true,
+    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
+    is_online: false,
+    photo: "https://images.squarespace-cdn.com/content/v1/607aea04c534cf4f9c9579ab/49543247-218d-456a-9212-5e4eb728f170/NinaLilliebjerg_OtherCo_Design_02-14.png"
 }]
