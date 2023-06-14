@@ -14,7 +14,6 @@ let schema = new mongoose.Schema({
   timestamps: true,
   versionKey: false
 })
-
 let collection = 'carrito'
 
 let Carrito = mongoose.model(collection, schema)
