@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 let schema = new mongoose.Schema({
-
   user_id: {type: mongoose.Types.ObjectId, ref: 'users', required: true},
   product_id: {type: mongoose.Types.ObjectId, ref: 'games', required: true},
   title: {type: String, required: true},
