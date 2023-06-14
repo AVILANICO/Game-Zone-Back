@@ -32,6 +32,7 @@ let read = async (req, res, next) => {
             .skip(pagination.page > 0 ? (pagination.page - 1) * pagination.limit : 0)
             .limit(pagination.limit > 0 ? pagination.limit : 0)
             .populate('category_id')
+            .populate('company_id','name')
             let count = await Game
             .estimatedDocumentCount(queries)
         return res.status(200).json({
