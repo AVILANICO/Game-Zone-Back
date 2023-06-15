@@ -46,7 +46,7 @@ let data = async () => {
     await newUsers(users)
     await newRoles(authors,companies)
     await newGames(games)
-    console.log('done!')
+    console.log('Base de datos actualizada Wachin!')
 }
 
 data()
