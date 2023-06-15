@@ -29,6 +29,7 @@ let read = async (req, res, next) => {
             .find(queries)
             .sort(sort)
             .populate('category_id')
+            .populate('company_id','name')
             let count = await Game
             .estimatedDocumentCount(queries)
         return res.status(200).json({
