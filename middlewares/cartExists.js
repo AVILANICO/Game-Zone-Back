@@ -7,7 +7,9 @@ async function cartExists(req,res,next){
         return res 
             .status(400)
             .json({
-                message: 'Product is already in the bag'
+
+                message: 'Product is already in the cart'
+
             })
     }
     return next()

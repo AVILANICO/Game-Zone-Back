@@ -12,6 +12,7 @@ const contoller = {
             
             try {
                 await Carrito.create({
+                    product_id: req.params.id,
                     user_id: user._id,
                     title: game.title,
                     cover_photo: game.cover_photo,
@@ -53,7 +54,6 @@ const contoller = {
             next(error)
         }
     },
-
 
     destroyOne: async (req,res,next) => {
         try {
