@@ -4,7 +4,6 @@ let read = async (req, res, next) => {
     let queries = {}
     let sort = {}
     let pagination = {
-        limit: 6,
         page: 1
     }
     console.log(req.query)
@@ -29,8 +28,6 @@ let read = async (req, res, next) => {
         let all = await Game
             .find(queries)
             .sort(sort)
-            .skip(pagination.page > 0 ? (pagination.page - 1) * pagination.limit : 0)
-            .limit(pagination.limit > 0 ? pagination.limit : 0)
             .populate('category_id')
             .populate('company_id','name')
             let count = await Game

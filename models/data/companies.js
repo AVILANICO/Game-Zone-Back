@@ -112,14 +112,14 @@ export let companies = [{
     user_id: "infinityward@team.com.ar"
 },{
     name: "Bungie",
-    logo: "https://static.wikia.nocookie.net/halo/images/2/28/BungieLogo-1-.png/revision/latest?cb=20110313145826&path-prefix=es",
+    logo: "https://www.muycomputer.com/wp-content/uploads/2022/01/Bungie-1.jpg",
     website: "https://www.bungie.net/7",
     description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
     active: true,
     user_id: "bungie@team.com.ar"
 },{
     name: "Id Software",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNDOFQF9wiJ_lpLirmXZPU6yRr-kTDLoZCw&usqp=CAU",
+    logo: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/06/id-software-feature.jpg",
     website: "https://www.idsoftware.com/",
     description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
     active: true,
@@ -182,7 +182,7 @@ export let companies = [{
     user_id: "redbeet@team.com.ar"
 },{
     name: "Obsidian Entertainment",
-    logo: "https://static.wikia.nocookie.net/fallout/images/8/87/Obsidian_Entertainment.png/revision/latest?cb=20180322171903&path-prefix=es",
+    logo: "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/07/Obsidian_XGS_HERO.jpg",
     website: "https://www.obsidian.net/",
     description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
     active: true,
@@ -217,7 +217,7 @@ export let companies = [{
     user_id: "innersloth@team.com.ar"
 },{
     name: "Rare Ltd",
-    logo: "https://static.wikia.nocookie.net/rare/images/6/66/Rare_Logo_2015.png/revision/latest?cb=20190310041927",
+    logo: "https://i1.sndcdn.com/avatars-000239613123-351pv3-t500x500.jpg",
     website: "https://www.rare.co.uk/",
     description: "The founding members are Candela Cañete, Alejandro Dacunto, Valentín Caceres, Cristian Elfante y Pablo Muñiz.",
     active: true,

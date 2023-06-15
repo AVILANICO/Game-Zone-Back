@@ -141,7 +141,7 @@ export let games = [
         gameplay: 'https://www.youtube.com/watch?v=nc-g7GHsiAg&ab_channel=OrbitalGameplay'
     },{
         title: 'Brawlhalla',
-        cover_photo: 'https://www.brawlhalla.com/c/uploads/2022/08/Brawlhalla_BoxArt_1920x1080.jpg',
+        cover_photo: 'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7vvLZLvuQ7NGZvAA3wpfQH/61d21f0afdf2bc58a41b37928e43fde1/BHxAC_KeyArt_NoText.jpg',
         description: 'Is an online platform fighting game that offers fast-paced multiplayer battles in a dynamic and diverse arena. Developed by Blue Mammoth Games, it provides an exciting and accessible experience for both casual and competitive players.',
         category_id: 'multiplayer',
         author_id: 'Laureano',
