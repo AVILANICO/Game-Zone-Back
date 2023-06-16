@@ -17,4 +17,7 @@ export const authorCreate = joi.object({
     photo: joi.string().uri().required().messages({
         "string.empty": "A url is required",
     }),
+        cover_photo: joi.string().uri().required().messages({
+        "string.empty": "A url is required",
+    }),
 })
