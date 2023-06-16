@@ -7,7 +7,8 @@ let schema = new mongoose.Schema({
   cover_photo: {type: String, required: false},
   category_id:{type: mongoose.Types.ObjectId,ref: 'categories', required: true},
   price:{type: Number, required: true},
-  quantity:{type: Number, required: true}
+  quantity:{type: Number, required: true},
+  stock:{type: Number, required: true}
 },
 {
   timestamps: true,
