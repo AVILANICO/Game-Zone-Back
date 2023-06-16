@@ -15,16 +15,18 @@ import exist_title from "../middlewares/exist_title.js"
 import gameUpdate from "../schemas/gameUpdate.js";
 import upload_cover_photo from "../middlewares/upload_cover_photo.js";
 import uploadImage from '../services/firebase.cjs';
+import readAll from "../controllers/games/read.js";
 
 let router = Router()
 
 router.get('/',passport.authenticate('jwt',{session:false}), read)
+router.get("/all",passport.authenticate('jwt',{session:false}), readAll)
 router.get('/me',passport.authenticate('jwt',{session:false}),finds_id, get_Me)
 router.get('/:id', get_one)
 router.post('/games', create)
-router.post('/', upload_cover_photo(), uploadImage, passport.authenticate('jwt',{session:false}),validator(gameCreate), is_active, exist_title, is_property_of, create)
+router.post('/', upload_cover_photo(), uploadImage, passport.authenticate('jwt',{session:false}),validator(gameCreate), is_active, exist_title, create)
 router.put('/:id', passport.authenticate('jwt',{session:false}), validator(gameUpdate),finds_id, is_active, is_property_of, update)
-router.delete('/:id', passport.authenticate('jwt',{session:false}), finds_id, is_active, is_property_of, destroy)
+router.delete('/:id', passport.authenticate('jwt',{session:false}), destroy)
 
 export default router;
 
