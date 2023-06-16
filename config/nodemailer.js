@@ -61,7 +61,6 @@ let transporter = nodemailer.createTransport({
         
         <img height="auto" src="https://i.postimg.cc/Y2VHsS3q/cover-foto-albion.jpg" style="display:block;border:0px;width:60%;max-width:180px;min-width:180px" width="180" class="CToWUd a6T" data-bit="iit" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 554px; top: 215.062px;"><div id=":os" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Descargar el archivo adjunto " jslog="91252; u014N:cOuCgd,Kr2w4b,xr6bB; 4:WyIjbXNnLWY6MTc2MTM1MDYzNjMxMzQ3MzQwMiIsbnVsbCxbXV0." data-tooltip-class="a1V" data-tooltip="Descargar"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
         
-        
         </td>
         </tr>
         
@@ -94,7 +93,7 @@ let transporter = nodemailer.createTransport({
         <table border="0" cellpadding="0" cellspacing="0" style="width:215px;border-spacing:0;border-collapse:collapse" width="215">
         <tbody><tr>
         <td align="center" height="43" style="border-collapse:collapse;background-color:#000;border-radius:9px;white-space:nowrap">
-        <a href='http://localhost:8000/auth/verify/?verify_code=${user.verify_code}' style="display:inline-block;width:100%;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;line-height:19px;color:#ffffff;text-align:center;text-decoration:none;background-color:#F472B6;border-radius:14px;border-top:12px solid #F472B6;border-bottom:12px solid #F472B6;text-transform:uppercase" target="_blank" data-saferedirecturl="    ">
+        <a href='http://localhost:8000/auth/verify/?verify_code=${user.verify_code}' style="display:inline-block;width:100%;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;line-height:19px;color:#ffffff;text-align:center;text-decoration:none;background-color:#000;border-radius:14px;border-top:12px solid #000;border-bottom:12px solid #000;text-transform:uppercase" target="_blank" data-saferedirecturl="    ">
         &nbsp;&nbsp;CONFIRM EMAIL
         &nbsp;&nbsp;
         </a>

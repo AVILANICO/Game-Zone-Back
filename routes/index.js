@@ -12,7 +12,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'MINGA API', subtitle: 'Endpoints of Minga' });
+  res.render('index', { title: 'GAME ZONE API', subtitle: 'Endpoints of game zone' });
 });
 
 //Las rutas definen como se van a conectar el backend con el frontend
@@ -22,7 +22,7 @@ router.use('/authors', authorRouter)
 router.use('/categories', categoriesRouter)
 router.use('/companies', companiesRouter)
 router.use('/games', gamesRouter)
-router.use('/payments', payments)
+router.use('/payment', payments)
 router.use('/carrito', carritoRouter)
 
 export default router;

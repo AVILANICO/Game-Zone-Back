@@ -18,9 +18,10 @@ const contoller = {
                     cover_photo: game.cover_photo,
                     price: game.price,
                     quantity: 1,
-                    category_id: game.category_id
+                    category_id: game.category_id,
+                    stock: game.stock
                 })
-                return res.status (201).json({menssage:'pruducto agregado al carrito'})
+                return res.status (201).json({menssage:'product added to cart'})
             } catch (error) {
                 next(error)
             }
@@ -47,7 +48,7 @@ const contoller = {
                 return res 
                     .status(200)
                     .json({
-                        message: 'Cantidad fue actualizada',
+                        message: 'amount was updated',
                     })
             }
         } catch (error) {

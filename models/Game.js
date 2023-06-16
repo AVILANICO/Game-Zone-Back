@@ -6,7 +6,9 @@ let schema = new mongoose.Schema({
   title: {type: String, required: true},
   cover_photo: {type: String, required: false},
   description: {type: String, required: true},
-  price:{type: String, required: false},
+  price:{type: Number, required: false},
+  stock:{type: Number, required: false},  
+  gameplay:{type: String, required: false},
   category_id:{type: mongoose.Types.ObjectId,ref: 'categories', required: true}
 },
 {
