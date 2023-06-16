@@ -149,6 +149,7 @@ export let games = [
         price: 20,
         stock: 5,
         gameplay: 'https://www.youtube.com/watch?v=z47xVz_YOsg&ab_channel=RosGamer_xD'
+
     },{
         title: 'League of Legends',
         cover_photo: 'https://img.redbull.com/images/c_fill,w_1200,h_600,g_auto,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends',
@@ -159,6 +160,7 @@ export let games = [
         price: 20,
         stock: 2,
         gameplay: 'https://www.youtube.com/watch?v=p4QG59y6FGE&ab_channel=MindYourGames'
+
     },{
         title: 'Fortnite',
         cover_photo: 'https://tecnautas.cl/wp-content/uploads/2023/01/Fortnite-scaled1.jpg',
@@ -424,3 +426,4 @@ export let games = [
         gameplay: 'https://www.youtube.com/watch?v=v4mma-9qDqI&ab_channel=Throneful'
     }
 ] 
+
