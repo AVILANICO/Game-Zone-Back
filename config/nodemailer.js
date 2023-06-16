@@ -60,11 +60,7 @@ let transporter = nodemailer.createTransport({
         <td align="center" style="padding-top:16px">
         
         <img height="auto" src="https://i.postimg.cc/Y2VHsS3q/cover-foto-albion.jpg" style="display:block;border:0px;width:60%;max-width:180px;min-width:180px" width="180" class="CToWUd a6T" data-bit="iit" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 554px; top: 215.062px;"><div id=":os" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Descargar el archivo adjunto " jslog="91252; u014N:cOuCgd,Kr2w4b,xr6bB; 4:WyIjbXNnLWY6MTc2MTM1MDYzNjMxMzQ3MzQwMiIsbnVsbCxbXV0." data-tooltip-class="a1V" data-tooltip="Descargar"><div class="akn"><div class="aSK J-J5-Ji aYr"></div></div></div></div>
-<<<<<<< HEAD
-        
-=======
  
->>>>>>> b172560b854404430e9a62e23a127fadc188124e
         
         </td>
         </tr>
